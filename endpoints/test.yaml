@@ -1,0 +1,5 @@
+path: "/test"
+method: "GET"
+extra:
+  python:
+    source: "endpoints/test.py"
