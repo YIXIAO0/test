@@ -1,0 +1,17 @@
+identity:
+  author: yixiao0
+  name: test
+  label:
+    en_US: test
+    zh_Hans: test
+    pt_BR: test
+  description:
+    en_US: tool
+    zh_Hans: tool
+    pt_BR: tool
+  icon: icon.svg
+tools:
+  - tools/test.yaml
+extra:
+  python:
+    source: provider/test.py

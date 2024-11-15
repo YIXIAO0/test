@@ -1,0 +1,30 @@
+identity:
+  name: test
+  author: yixiao0
+  label:
+    en_US: test
+    zh_Hans: test
+    pt_BR: test
+description:
+  human:
+    en_US: tool
+    zh_Hans: tool
+    pt_BR: tool
+  llm: tool
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+    human_description:
+      en_US: tool
+      zh_Hans: tool
+      pt_BR: tool
+    llm_description: tool
+    form: llm
+extra:
+  python:
+    source: tools/test.py
